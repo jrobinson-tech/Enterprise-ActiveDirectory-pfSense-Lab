@@ -7,7 +7,7 @@ A production-modeled virtual enterprise infrastructure leveraging a Netgate pfSe
 
 ## 📊 Network Architecture & Schema
 <!-- High-level visual topology overview -->
-![Network Topology](network-topology.png)
+![Network Topology](screenshots/network-topology.png)
 
 | Interface | Zone Name | Network Schema | Trust Level | Purpose |
 | :--- | :--- | :--- | :--- | :--- |
@@ -71,7 +71,7 @@ Establish centralized authentication, logical asset tracking, and initialize the
 4. Joined the Analyst Workstation to the domain and explicitly placed its machine account into the `IT_Security` OU to keep its administrative profile isolated.
 5. **Defeated Domain Join DNS Hurdle:** Troubleshot client domain-join failures by manually shifting the Windows 11 Primary DNS away from pfSense and directly targeting the DC at `10.0.10.10`.
 
-![AD OU Hierarchy](screenshots/ad-ou-hierarchy.png)
+![AD OU Hierarchy](screenshots/2026-06-07 133408.png)
 </details>
 
 <details>
