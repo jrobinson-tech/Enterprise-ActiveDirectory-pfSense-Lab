@@ -88,7 +88,7 @@ Automate and enforce mandatory corporate compliance and pre-login security harde
 3. **Resolved GPO Filtering Issue:** Diagnosed why the policy failed to apply by running `gpresult /r` on the client. Migrated the computer object out of the generic `Computers` folder into the `Corporate_Headquarters/Workstations` OU.
 4. Forced an immediate update via the client command line: `gpupdate /force`.
 
-![GPO Applied](screenshots/gpo-applied.png)
+![GPO Applied](screenshots/2026-06-07 133918.png)
 </details>
 
 <details>
